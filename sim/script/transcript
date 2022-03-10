@@ -1,0 +1,124 @@
+# do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:10 on Dec 01,2021
+# vcom -reportprogress 300 -2008 -work work ../../src/rom_data/rom_data.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity rom_data
+# -- Compiling architecture SYN of rom_data
+# End time: 19:43:10 on Dec 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:10 on Dec 01,2021
+# vcom -reportprogress 300 -2008 -work work ../../src/rom_instructions/rom_instructions.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rom_instructions
+# -- Compiling architecture SYN of rom_instructions
+# End time: 19:43:10 on Dec 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:10 on Dec 01,2021
+# vcom -reportprogress 300 -2008 -work work ../../src/rising_edge_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rising_edge_synchronizer
+# -- Compiling architecture beh of rising_edge_synchronizer
+# End time: 19:43:10 on Dec 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:10 on Dec 01,2021
+# vcom -reportprogress 300 -2008 -work work ../../src/clock_synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package clock_synchronizer_pkg
+# -- Compiling entity clock_synchronizer
+# -- Compiling architecture behav of clock_synchronizer
+# End time: 19:43:10 on Dec 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:10 on Dec 01,2021
+# vcom -reportprogress 300 -2008 -work work ../../src/edge_detect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package edge_detect_pkg
+# -- Compiling entity edge_detect
+# -- Compiling architecture behave of edge_detect
+# End time: 19:43:10 on Dec 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:10 on Dec 01,2021
+# vcom -reportprogress 300 -2008 -work work ../../src/reg_delay.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package reg_delay_pkg
+# -- Compiling entity reg_delay
+# -- Compiling architecture behave of reg_delay
+# End time: 19:43:10 on Dec 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:10 on Dec 01,2021
+# vcom -reportprogress 300 -2008 -work work ../../src/dj_roomba_3000.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package dj_roomba_3000_pkg
+# -- Loading package clock_synchronizer_pkg
+# -- Loading package edge_detect_pkg
+# -- Loading package reg_delay_pkg
+# -- Compiling entity dj_roomba_3000
+# -- Compiling architecture beh of dj_roomba_3000
+# End time: 19:43:10 on Dec 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:10 on Dec 01,2021
+# vcom -reportprogress 300 -2008 -work work ../src/dj_roomba_3000_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dj_roomba_3000_tb
+# -- Compiling architecture arch of dj_roomba_3000_tb
+# End time: 19:43:10 on Dec 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" dj_roomba_3000_tb 
+# Start time: 19:43:11 on Dec 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.dj_roomba_3000_tb(arch)
+# Loading work.clock_synchronizer_pkg
+# Loading work.edge_detect_pkg
+# Loading work.reg_delay_pkg
+# Loading work.dj_roomba_3000(beh)
+# Loading work.clock_synchronizer(behav)
+# Loading work.edge_detect(behave)
+# Loading work.rom_instructions(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading altera_mf.altera_mf_components
+# Loading work.rom_data(syn)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: tv2368  Hostname: GOL1360-15  ProcessID: 6764
+#           Attempting to use alternate WLF file "./wlftqb5f72".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqb5f72
+# ** Note: ****************** TB Start ****************
+#    Time: 0 ps  Iteration: 0  Instance: /dj_roomba_3000_tb
+# ** Note: ****************** TB Finish ****************
+#    Time: 2 us  Iteration: 0  Instance: /dj_roomba_3000_tb
+# End time: 19:48:23 on Dec 01,2021, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 2

@@ -1,0 +1,440 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/svn_repo/HDL_LAB/Lab9/sim/script
+T_opt
+!s110 1638225554
+VUD2J^fU>89A?L8bGZ[JY;0
+Z1 04 17 4 work dj_roomba_3000_tb arch 1
+=1-b07b2521b065-61a55691-370-1a6c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1638227578
+Va687G_i>_J0UaB`CzjUdA3
+R1
+=1-b07b2521b065-61a55e79-214-3688
+R2
+R3
+n@_opt1
+R4
+R0
+Eclock_synchronizer
+Z5 w1633405296
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8../../src/clock_synchronizer.vhd
+Z9 F../../src/clock_synchronizer.vhd
+l0
+L65
+V8j;?8^YH`K8>XjD:bK94o0
+!s100 KglCQ2B:kMIePYW8Mk>:;1
+Z10 OV;C;10.5b;63
+33
+Z11 !s110 1638405790
+!i10b 1
+Z12 !s108 1638405790.000000
+Z13 !s90 -reportprogress|300|-2008|-work|work|../../src/clock_synchronizer.vhd|
+Z14 !s107 ../../src/clock_synchronizer.vhd|
+!i113 1
+Z15 o-2008 -work work
+Z16 tExplicit 1 CvgOpt 0
+Abehav
+R6
+R7
+DEx4 work 18 clock_synchronizer 0 22 8j;?8^YH`K8>XjD:bK94o0
+l83
+L78
+Vi9N^PIK3_>EPhANDOIaYX0
+!s100 _76db0Z]Zej>V`CP>b4gB0
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Pclock_synchronizer_pkg
+R6
+R7
+R5
+R0
+R8
+R9
+l0
+L37
+V[2iF3dcL^]BoOCd56ZBB=0
+!s100 fSW@b3C__We48m3EVGe<93
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Edj_roomba_3000
+Z17 w1638227574
+Z18 DPx4 work 13 reg_delay_pkg 0 22 70eo5Sn0BSLml7l>ziFgM1
+Z19 DPx4 work 15 edge_detect_pkg 0 22 UG6VJ3E2O5Ye:IzFCc08k3
+Z20 DPx4 work 22 clock_synchronizer_pkg 0 22 [2iF3dcL^]BoOCd56ZBB=0
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R6
+R7
+R0
+Z22 8../../src/dj_roomba_3000.vhd
+Z23 F../../src/dj_roomba_3000.vhd
+l0
+L71
+Vzn1C1jGnHJFDd6TK13nKn1
+!s100 4RaZcogd@;jA`[_XH_5UG1
+R10
+33
+R11
+!i10b 1
+R12
+Z24 !s90 -reportprogress|300|-2008|-work|work|../../src/dj_roomba_3000.vhd|
+Z25 !s107 ../../src/dj_roomba_3000.vhd|
+!i113 1
+R15
+R16
+Abeh
+R18
+R19
+R20
+R21
+R6
+R7
+DEx4 work 14 dj_roomba_3000 0 22 zn1C1jGnHJFDd6TK13nKn1
+l153
+L83
+VlG07Jg]HJV0jKNKl^FgLh3
+!s100 <_ScnAZ_FlokclgFP9>`U1
+R10
+33
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 1
+R15
+R16
+Pdj_roomba_3000_pkg
+R21
+R6
+R7
+R17
+R0
+R22
+R23
+l0
+L42
+VO8;5a7V3X7nM5;C4id:C41
+!s100 =Vlg7glYoW1c0N=m:2RN_0
+R10
+33
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 1
+R15
+R16
+Edj_roomba_3000_tb
+Z26 w1638225548
+R21
+R6
+R7
+R0
+Z27 8../src/dj_roomba_3000_tb.vhd
+Z28 F../src/dj_roomba_3000_tb.vhd
+l0
+L9
+V7]iTRAA2NHB[9:nE@m>ee0
+!s100 A`=239<Y4BYFM?lMMLkQk2
+R10
+33
+R11
+!i10b 1
+R12
+Z29 !s90 -reportprogress|300|-2008|-work|work|../src/dj_roomba_3000_tb.vhd|
+Z30 !s107 ../src/dj_roomba_3000_tb.vhd|
+!i113 1
+R15
+R16
+Aarch
+R21
+R6
+R7
+Z31 DEx4 work 17 dj_roomba_3000_tb 0 22 7]iTRAA2NHB[9:nE@m>ee0
+l34
+L12
+Z32 VC0<^fz^W6W3h^XF<kiC[l3
+Z33 !s100 I0VK4>`KTdzYC?3fi6bo80
+R10
+33
+R11
+!i10b 1
+R12
+R29
+R30
+!i113 1
+R15
+R16
+Eedge_detect
+Z34 w1632795370
+R6
+R7
+R0
+Z35 8../../src/edge_detect.vhd
+Z36 F../../src/edge_detect.vhd
+l0
+L63
+VaiGLSP^FDCfU]lo<5_DCT2
+!s100 T>TlN>7OZYgk2dVhj9X6_3
+R10
+33
+R11
+!i10b 1
+R12
+Z37 !s90 -reportprogress|300|-2008|-work|work|../../src/edge_detect.vhd|
+Z38 !s107 ../../src/edge_detect.vhd|
+!i113 1
+R15
+R16
+Abehave
+R6
+R7
+DEx4 work 11 edge_detect 0 22 aiGLSP^FDCfU]lo<5_DCT2
+l79
+L74
+V2WP3Jk@U=VOcOc^CmZJSz2
+!s100 PfI0DhX^zho4Goi5zUAUh2
+R10
+33
+R11
+!i10b 1
+R12
+R37
+R38
+!i113 1
+R15
+R16
+Pedge_detect_pkg
+R6
+R7
+R34
+R0
+R35
+R36
+l0
+L38
+VUG6VJ3E2O5Ye:IzFCc08k3
+!s100 @PQd<S?P@N>7M:eS``VzL1
+R10
+33
+R11
+!i10b 1
+R12
+R37
+R38
+!i113 1
+R15
+R16
+Ereg_delay
+Z39 w1635971014
+R6
+R7
+R0
+Z40 8../../src/reg_delay.vhd
+Z41 F../../src/reg_delay.vhd
+l0
+L40
+VFjgiK?C6HH5K[zFUg?o410
+!s100 MAa>T@1WCUlj7Xk94B6?>2
+R10
+33
+R11
+!i10b 1
+R12
+Z42 !s90 -reportprogress|300|-2008|-work|work|../../src/reg_delay.vhd|
+Z43 !s107 ../../src/reg_delay.vhd|
+!i113 1
+R15
+R16
+Abehave
+R6
+R7
+DEx4 work 9 reg_delay 0 22 FjgiK?C6HH5K[zFUg?o410
+l59
+L56
+VBk1T<O_>d7_h;TKUJ=MGg2
+!s100 S4NE5T>mQanWlF<M3z7eM2
+R10
+33
+R11
+!i10b 1
+R12
+R42
+R43
+!i113 1
+R15
+R16
+Preg_delay_pkg
+R6
+R7
+R39
+R0
+R40
+R41
+l0
+L20
+V70eo5Sn0BSLml7l>ziFgM1
+!s100 4@0H4F]<5U7i]M>o@a]`Q0
+R10
+33
+R11
+!i10b 1
+R12
+R42
+R43
+!i113 1
+R15
+R16
+Erising_edge_synchronizer
+Z44 w1636501744
+R6
+R7
+R0
+Z45 8../../src/rising_edge_synchronizer.vhd
+Z46 F../../src/rising_edge_synchronizer.vhd
+l0
+L8
+VSzT;=mWjCUVO[Zno9c=bk2
+!s100 8>=9Tc6dAVdENebjXiG<30
+R10
+33
+R11
+!i10b 1
+R12
+Z47 !s90 -reportprogress|300|-2008|-work|work|../../src/rising_edge_synchronizer.vhd|
+Z48 !s107 ../../src/rising_edge_synchronizer.vhd|
+!i113 1
+R15
+R16
+Abeh
+R6
+R7
+DEx4 work 24 rising_edge_synchronizer 0 22 SzT;=mWjCUVO[Zno9c=bk2
+l22
+L17
+V?fFQ5h<T1J2bN4aF5i]fH0
+!s100 bl0g6Z13_?2U69Fj`HUc[2
+R10
+33
+R11
+!i10b 1
+R12
+R47
+R48
+!i113 1
+R15
+R16
+Erom_data
+R44
+Z49 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+R6
+R7
+R0
+Z50 8../../src/rom_data/rom_data.vhd
+Z51 F../../src/rom_data/rom_data.vhd
+l0
+L43
+VA?28?5lO5>P4_TKBfeahh0
+!s100 3OF@?0zK=gZ@:TQ3ckXiW3
+R10
+33
+R11
+!i10b 1
+R12
+Z52 !s90 -reportprogress|300|-2008|-work|work|../../src/rom_data/rom_data.vhd|
+Z53 !s107 ../../src/rom_data/rom_data.vhd|
+!i113 1
+R15
+R16
+Asyn
+R49
+R6
+R7
+DEx4 work 8 rom_data 0 22 A?28?5lO5>P4_TKBfeahh0
+l57
+L53
+V0GD;5>i_eXko7^c@zSH=D2
+!s100 FWA@ePhK:Fh]O9UQ4m<QH3
+R10
+33
+R11
+!i10b 1
+R12
+R52
+R53
+!i113 1
+R15
+R16
+Erom_instructions
+R44
+R6
+R7
+R0
+Z54 8../../src/rom_instructions/rom_instructions.vhd
+Z55 F../../src/rom_instructions/rom_instructions.vhd
+l0
+L42
+Vc4Pm@XXjf=Y7RW9M1<[`a1
+!s100 gzW;2@`;P`NkEI3ie7>EZ3
+R10
+33
+R11
+!i10b 1
+R12
+Z56 !s90 -reportprogress|300|-2008|-work|work|../../src/rom_instructions/rom_instructions.vhd|
+Z57 !s107 ../../src/rom_instructions/rom_instructions.vhd|
+!i113 1
+R15
+R16
+Asyn
+R6
+R7
+DEx4 work 16 rom_instructions 0 22 c4Pm@XXjf=Y7RW9M1<[`a1
+l82
+L52
+VR<on:D;l@liN^z5Zf0bF80
+!s100 @Y3^M>dFUk5JfjhKHWBU00
+R10
+33
+R11
+!i10b 1
+R12
+R56
+R57
+!i113 1
+R15
+R16
